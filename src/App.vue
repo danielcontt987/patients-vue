@@ -65,7 +65,7 @@
   }
 
   const deletePet = (id) => {
-    const petDelete = pets.value.filter((pet) => pet.id !== id)[0];    
+    pets.value = pets.value.filter( pet => pet.id !== id)   
   }
 
 </script>
